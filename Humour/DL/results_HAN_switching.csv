@@ -1,0 +1,2 @@
+Mode	LSTM_or_GRU	Hidden_Size	Pre-final-layer-size	Late_Incorp_Mode	Acc.	F1
+All9Signals	GRU	30	30	ReduceOne	0.0720116615295	0.0715882539749
