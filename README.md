@@ -1,5 +1,8 @@
 # Code-switching patterns can be an effective route to improve performance of downstream NLP applications: A case study of humour, sarcasm and hate speech detection 
 [link](https://arxiv.org/abs/2005.02295)
+
+Download embedding [here](https://bit.ly/3dtfxDd)
+
 ## How to run:
 
 #### Humour
