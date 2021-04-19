@@ -9,26 +9,26 @@ You can download the embedding [here](https://bit.ly/3dtfxDd)
 
 #### Humour
 ML model:
-- Baseline: python  Humour/ML/grid_search_baseline.py
-- Switching: python  Humour/ML/grid_search_baseline_switching.py
+- Baseline: run `python  grid_search_baseline.py` from Humour/ML/
+- Switching: run `python  grid_search_baseline_switching.py` from Humour/ML/
 
 To run HAN:
-- Baseline: python Humour/HAN/master_script_baseline_signal.py
-- Switching: python Humour/HAN/master_script_switching_signal.py
+- Baseline: run `python master_script_baseline_signal.py` from Humour/HAN/
+- Switching: run `python master_script_switching_signal.py` from Humour/HAN/
 
 #### Hate
 To run ML model:
-- Baseline & Switching: python  Hate/ML/grid_search.py
+- Baseline & Switching: run `python  grid_search.py` from Hate/ML/
 
 To run HAN:
-- Baseline: python Hate/HAN/grid_search_baseline.py
-- Switching: python Hate/HAN/grid_search_switching.py
+- Baseline: run `python grid_search_baseline.py` from Hate/HAN/
+- Switching: run `python grid_search_switching.py` from Hate/HAN/
 
 #### Sarcasm
 To run ML model:
-- Baseline: python Sarcasm/ML/Baseline/classification.py
-- Switching: python Sarcasm/ML/Switching/classification.py
+- Baseline: run `python classification.py` from Sarcasm/ML/Baseline/
+- Switching: run `python classification.py` from Sarcasm/ML/Switching/
 
 To run HAN:
-- Baseline: python Sarcasm/HAN/grid_search_baseline.py
-- Switching: python Sarcasm/HAN/grid_search_switching.py
+- Baseline: run `python grid_search_baseline.py` from Sarcasm/HAN/
+- Switching: run `python grid_search_switching.py` from Sarcasm/HAN/
