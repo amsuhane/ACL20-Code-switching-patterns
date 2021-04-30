@@ -173,10 +173,10 @@ def getaccuracy(test_predicted, test_truth):
 def train_and_test():
 	findfeatureproperties()
 	id_truth_map = get_id_truth_map()
-	#train_truth_feature_map = getfeaturevectorforalltweets()
-	#f = open("feature_map.pkl","wb")
-	#pickle.dump(train_truth_feature_map, f)
-	#f.close()
+	train_truth_feature_map = getfeaturevectorforalltweets()
+	f = open("feature_map.pkl","wb")
+	pickle.dump(train_truth_feature_map, f)
+	f.close()
 	with open('feature_map.pkl', 'rb') as f:
 		train_truth_feature_map = pickle.load(f)
 	with open('switch_signal_feature.pkl', 'rb') as f:
